@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programové a datové soubory</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-bar">
+        <h1>Ovladače, firmware a utility</h1>
+        <ul>
+            <li class="active"><a href="../index.html">Hlavní stránka</a></li>
+            <li><a href="../a/index.html">Programové a datové soubory</a></li>
+            <li><a href="../b/index.html">Software a autorský zákon</a></li>
+            <li><a href="../d/index.html">Aplikační software</a></li>
+            <li><a href="../e/index.html">Instalace programů</a></li>
+            <li><a href="../f/index.html">Emulace a virtualizace</a></li>
+        </ul>
+    </div>
+    </header>
+    <main>
+        <p>K systémovému software můžeme kromě operačních systémů zařadit ovladače hardarových zařízení, firmware a aspoň zčásti i tzv. utility.</p>
+       <h2>Ovladače zařízení (<i>device drivers</i>)</h2>
+       <p>Speciální programy, které zajišťují komunikaci <abbr title="Operační systém">OS</abbr> s určitým technickým vybavením. Bez potřebného ovladače nemůže
+        zařízení správně fungovat. Standardní ovladače pro běžná zařízení, jakými
+        jsou flash disk, myš, klávesnice nebo digitální fotoaparáty, bývají součástí
+        moderních <abbr title="Operační systém">OS</abbr>. Instalaci zařízení ve Windows usnadňuje standard <b>Plug and
+        Play</b> (<i>PnP - „připoj a hrej“</i>), který zajistí automatickou detekci nově připojeného hardware a případně i automatické vyhledání potřebného ovladače. Není-li
+        driver nalezen přímo v <abbr title="Operační systém">OS</abbr>, musí být použit externí instalátor ovladače z disku dodaného se zařízením (např. z instalačního <abbr title="Compact Disc">CD</abbr> k tiskárně), nebo stažený
+        z internetových stránek, nejlépe přímo od výrobce. Nevhodně zvolený ovladač
+        může v krajním případě způsobit nefunkčnost zařízení, někdy i celého OS.</p>
+        <figure>
+            <img src="../img/ov.png" alt="" />
+            <figcaption>Ovladače</figcaption>
+        </figure> 
+       <h2>Firmware</h2>
+       <p>Programové vybavení, které slouží pro řízení nějakého vestavěného systému (<i>embedded system</i>). Firmware řídí například kalkulačky, počítačové komponenty (pevný disk, router…), mobilní telefon, digitální fotoaparát atd.
+        Dříve byla aktualizace firmwaru realizována nahrazením paměťového média
+        obsahujícího firmware (např. výměna <abbr title="Read-Only Memory">ROM</abbr> paměti), dnes může být novější verze firmware přepsána díky používaným flash pamětem. Základním firmwarem
+        v počítači je <b><abbr title="Basic Output-Input System">BOIS</abbr></b>(<a href="https://cs.wikipedia.org/wiki/BIOS" target="_blank">BIOS WIKIPEDIA)</a>, který zajišťuje především start
+        počítače a umožňuje konfiguraci základní desky i připojeného hardware.</p>
+        <figure>
+            <img src="../img/firmwares.png" alt="" />
+            <figcaption>Firmware verze</figcaption>
+        </figure>
+       <h2>Utility</h2>
+       <p>Jsou menší pomocné programy, které umožňují vykonávat servisní
+        operace potřebné k fungování počítače. Patří k nim komprimační programy,
+        diagnostické a testovací programy, utility pro kontrolu a optimalizaci operačního systému, různé konverzní (převodní) programy, které umí přehledně zobrazit obrázky, převést je z jednoho formátu na jiný atd. Řada utilit je integrální
+        součástí <abbr title="Operační systém">OS</abbr>. Příkladem může být Správce úloh ve Windows (<i><a href="https://en.wikipedia.org/wiki/Task_Manager_(Windows)" target="_blank">Task manager</a></i>),
+        který umožňuje nejen správu spuštěných programů a služeb, ale i sledování
+        využití systémových zdrojů (procesoru, paměti). Dalšími užitečnými utilitami
+        jsou nástroje pro defragmentaci (<i>defrag</i>) nebo kontrolu disku (<i>chkdsk</i>). Některé
+        utility lze spouštět z příkazového řádku (<i>ping, ipconfig apod.</i>).
+        <figure>
+            <img src="../img/ut.png" alt="" />
+            <figcaption>Utility ve Windows</figcaption>
+        </figure>
+
+    </main>
+    <footer>
+       <hr>
+       <p>&copy;2021 - Lukáš Hrňa, www.sspu-opava.cz</p>
+
+    </footer>
+    
+</body>
